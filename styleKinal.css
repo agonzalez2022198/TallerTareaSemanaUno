@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+}
+
+
+.emergente{
+    position: relative;
+    display: inline-block;
+    background-color: aqua;
+
+}
+
+
+.emergente-contend{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.emergente:hover .emergente-contend{
+    display: block;
+}
+
+
+.emergente-item{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+
+.emergente-item:hover{
+    background-color: #ddd;
+}
