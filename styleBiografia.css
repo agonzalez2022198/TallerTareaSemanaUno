@@ -55,3 +55,37 @@ a {
 .contenedor h1 {
     margin: 0;
 }
+
+
+.home{
+    background-image: url("../TallerTareaSemanaUno/img/battlefront.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 34em;
+    width: 100%;
+}
+
+
+.home h1{
+
+
+
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+
+header{
+    text-align: center;
+    width: 100%;
+}
+
+
+header h1{
+    font-family: "Cinzel Decorative";
+    color: DFDCDC;
+    
+}
