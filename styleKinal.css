@@ -38,3 +38,34 @@ body{
 .emergente-item:hover{
     background-color: #ddd;
 }
+
+
+.divImg{
+    align-items: center;
+    text-align: center;
+}
+
+
+.tableCursos{
+    width: 89%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+.table, th, td{
+    border: 1px solid black;
+    
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+
+td:hover img{
+    transform: scale(1.1);
+}
