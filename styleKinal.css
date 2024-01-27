@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: rgb(249, 172, 8);
+    background-color: rgb(234, 236, 234);
 }
 
 
@@ -160,4 +160,76 @@ td:hover img{
     padding: 3px;
     margin-bottom: 2px;
     font-size: 0.8em;
+}
+
+
+.sobre-nosotros{
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.sobre-nosotros h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.sobre-nosotros p{
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+.moreinfo{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.moreinfo:hover{
+    background-color: rgb(129, 193, 236);
+    color: #007bff;
+}
+
+
+.footer{
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.redes{
+    margin-top: 10px;
+}
+
+
+.redes a{
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.redes a:hover{
+    color: #007bff;
 }
